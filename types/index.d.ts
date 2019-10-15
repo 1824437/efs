@@ -4,7 +4,7 @@ type callback = () => void;
 type isBoolean = boolean;
 
 export = efs;
-export as namespace efs;
+// export as namespace efs;
 
 declare namespace efs {
 
