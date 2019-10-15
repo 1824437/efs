@@ -6,7 +6,7 @@ type isBoolean = boolean;
 export = efs;
 export as namespace efs;
 
-declare namespace namespace efs {
+declare namespace efs {
 
   function eachDir (config : {
     depth: depth, 
