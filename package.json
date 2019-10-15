@@ -1,6 +1,6 @@
 {
   "name": "node-efs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js 文件系统模块的增强版本。",
   "main": "index.js",
   "types": "types/global.d.ts",
