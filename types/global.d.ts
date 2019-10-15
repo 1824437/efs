@@ -3,7 +3,7 @@ type depth = number;
 type callback = () => void;
 type isBoolean = boolean;
 
-declare namespace efs {
+export declare namespace efs {
 
   function eachDir (config : {
     depth: depth, 
@@ -20,3 +20,4 @@ declare namespace efs {
   }) : string|undefined
 
 }
+
