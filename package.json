@@ -1,5 +1,5 @@
 {
-  "name": "efs",
+  "name": "node-efs",
   "version": "1.0.0",
   "description": "Node.js 文件系统模块的增强版本。",
   "main": "index.js",
