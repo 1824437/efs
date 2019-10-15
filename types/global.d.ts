@@ -1,26 +1,22 @@
-import { execFileSync } from "child_process";
-
-export as namespace efs;
 type path  = string;
 type depth = number;
 type callback = () => void;
 type isBoolean = boolean;
 
-export = efs;
-declare interface efs {
+declare namespace efs {
 
-  eachDir: (config : {
+  function eachDir (config : {
     depth: depth, 
     _path: path, 
     forEachCb: callback, 
     cb: callback
-  }) => void;
-  
-   cat: (config: {
+  }) : void;
+
+   function cat (config: {
     _path: path, 
     ext: string[],
     cb: callback, 
     isClearComment: isBoolean
-  }) => string|undefined
+  }) : string|undefined
 
 }
