@@ -1,0 +1,10 @@
+{
+  "name": "efs",
+  "version": "1.0.0",
+  "description": "Node.js 文件系统模块的增强版本。",
+  "main": "index.js",
+  "types": "types/global.d.ts",
+  "repository": "https://github.com/1824437/efs.git",
+  "author": "tao.zhu <zhutao@live.cn>",
+  "license": "MIT"
+}
